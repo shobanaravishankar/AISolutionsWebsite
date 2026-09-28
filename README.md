@@ -1,6 +1,6 @@
 # AI Solutions / JARVIS — local review website
 
-Local review only. No public release, push, domain purchase or outbound email. Original specification incorporates Claude’s accepted design/copy recommendations; the later God Mode redesign and live-agent addition follow subsequent user direction and are not represented as newly approved by Claude.
+The website runtime remains local review only. Source check-in is authorized; public deployment, domain purchases and outbound email are not included. Original specification incorporates Claude’s accepted design/copy recommendations; the later God Mode redesign and live-agent addition follow subsequent user direction and are not represented as newly approved by Claude.
 
 ## Run
 Python 3.11+, standard library only. From this directory run `python server.py`, then open http://127.0.0.1:8765/ . Owner inbox: /owner. Choose your own password on first setup (12+ characters); it is hashed. Sessions expire after eight hours or server restart. This is a loopback development service, not an internet deployment architecture.
